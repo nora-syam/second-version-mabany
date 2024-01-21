@@ -111,6 +111,7 @@ nav li a:focus{
    background-color:var(--WHITE-COLORr);
    box-shadow: none;
    text-decoration: underline;
+   filter: blur();
 }
 #img-right .card,
 #img-right .accordion
@@ -126,6 +127,15 @@ nav li a:focus{
 footer .btn{
   background-color: var(--DARKCOLOR);
   
+}
+.event-back{
+    background-image: url(../images/Rectangle31.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:bottom;
+    height: 86vh;
+    
+    
 }
 @media screen and (max-width: 768px) {
    .first{
