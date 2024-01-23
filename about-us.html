@@ -18,23 +18,42 @@
     <ol class="d-flex justify-content-between p-0 m-0">
         <li class="first"><a href="#">EN | <img src="assets/images/Frame8.png"></a></li>
         <li><a href="index.html"><img src="assets/images/Asset1@51.png" height="47" width="150"></a></li>
-        <li><button class="border-0 bg-white"><a href="#" >Menu <img src="assets/images/Frame122.png"> </a></button></li>  
+        <li><button class="border-0 bg-white"data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><a href="#" >Menu <img src="assets/images/Frame122.png"> </a></button></li>  
     </ol></div>
 </nav>
 <!--side menu-->
-
+<div class="offcanvas offcanvas-end bg-transparent" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 id="offcanvasRightLabel"></h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="ol">
+         <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About Us</a></li>
+        <li><a href="#">Projects</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="partner.html">Partners In Success</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Careers</a></li>
+        <li><a href="#">Contact Us</a></li>
+    </ol>
+    </div>
+  </div>
+</div>
 <!--about us section-->
-<section class="py-5 bg-light">
+<section class="pt-5 bg-light">
 <div class="container">
 <div class="row">
     <div class="col-md-6">
         <h5>Who we are <img src="assets/images/Line2.png"></h5>
         <h1>About us</h1>
     </div>
-    <div class="col-md-6">
-        <p>More than 20 years ago, Mabany Edris began its journey,
+    <div class="col-md-6 ">
+        <h5>More than 20 years ago, Mabany Edris began its journey,
              and like every other journey in life, it does not always follow a set path,
-              despite our best efforts.</p>
+              despite our best efforts.</h5>
     </div>
 </div>
 </div>
@@ -61,8 +80,83 @@
 </div>
 </section>
 <!--leadership section-->
-<section class="py-5 bg-white">
+<section class="py-5 bg-white one">
+<div class="container">
+    <main class="row py-5">
+            <h1 class="px-5 col-md-4 m-auto py-2">Meet our leadership</h1>
+           <img class="col-md-4 img-fluid" src="assets/images/Rectangle33.png">
+        <article class="col-md-4 m-auto ps-4 py-2 lh-2">
+            <h3>Eng. Mohamed Edris</h3>
+            <h4 >CEO, Mabany Edris</h4>
+            <q>Before the launch of any new project, 
+                we always keep in mind that this project will become the home to hundreds of
+                 families; families very much like our own.</q>
+        </article>
+    </main>
+</div>
+</section>
+<!--value section-->
+<section class="py-5 bg-light ">
+<div class="container ">
+    <h5>Our Value <img src="assets/images/Line2.png"></h5>
+    <h1 class="col-md-4  py-2">Guarantee, trust, satisfaction</h1>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+            <div class="card border-0 bg-light">
+                <div class="card-body ">
+                    <img src="assets/images/hand.png">
+                    <h5 class="py-2">Commitment</h5>
+                  <p>Our dedication and personal obligation to the maintenance and fulfillment of any and all promises rendered,
+                     to the highest possible quality, in such a manner that ensures our continued relationship continues to grow and
+                      prosper.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card border-0 bg-light">
+                <div class="card-body ">
+                    <img src="assets/images/Group.png">
+                    <h5 class="py-2">Innovation</h5>
+                  <p>We pride ourselves on our ability to navigate the unpredictable Egyptian market and excel. This is, in no small part, 
+                    due to our resourcefulness and unprecedented ability to innovate to meet, 
+                    and to a certain degree, accurately predict, the demands and trends prevalent within the Egyptian Real Estate market.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card border-0 bg-light">
+                <div class="card-body ">
+                    <img src="assets/images/trust-wallet-svgrepo-com1.png">
+                    <h5 class="py-2">Integrity</h5>
+                  <p>We treat all our customers fairly and without discrimination in order to gain their trust and thus 
+                    we shall always be their first choice for investments in the future.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col">
+            <div class="card border-0 bg-light">
+                <div class="card-body read-more-container ">
+                    <img src="assets/images/Vector(1).png">
+                    <h5 class="py-2">Unity</h5>
+                  <p>We deal with each other as one family.
+                   We are united with our customers such as that our attitudes and aspirations can be of mutual benefit to both parties involved.</p>
+                </div>
+              </div>
+        </div>
+      </div>
+</div>
+</section>
 
+<!--counter section-->
+<section class="py-5 counter one">
+     <h1 class="text-center text-white py-5">Facts & Figures</h1>
+     <div class="container">
+        <article class=" text-white d-flex justify-content-around nums2 pb-5 row">           
+<div class="col-md-3 pt-3" ><h1 class=" num2" data-goal="50" >00</h1><h5 class="border-bottom border-1">Project in various industries</h5></div>
+<div class="col-md-3 pt-3"><h1><span class=" num2" data-goal="500" >000</span>+</h1><h5 class="border-bottom border-1">Our Clint</h5></div>
+<div class="col-md-3 pt-3"><h1 class=" num2" data-goal="20" >00</h1><h5 class="border-bottom border-1">With nearly 20 years in business</h5></div>     
+</article>
+</div>
 </section>
 <!--footer section-->
 <section class="bg-light fotter py-5">

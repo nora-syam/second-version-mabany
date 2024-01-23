@@ -7,6 +7,7 @@
     /*--colors--*/
     --DARKCOLOR:#1F2732;
     --LIGHRCOLOR:#C7984B;
+    --BACKMENU:rgba(31, 39, 51, 0);
     --SHADOW-COLOR:#606D7E;
     --WHITE-COLORr:#fff;
     --BLACK-COLOR:black;
@@ -93,6 +94,7 @@ nav li a:focus{
 .counter{
     background-image:  url(../images/Rectangle15.png)  ;
     background-size: cover;
+    background-attachment: fixed;
     height: auto; 
     padding: 0; 
 }
@@ -133,9 +135,21 @@ footer .btn{
     background-repeat: no-repeat;
     background-size: cover;
     background-position:bottom;
-    height: 86vh;
-    
-    
+    height: 86vh;    
+}
+
+.offcanvas-body .ol li{
+    display: flex;
+    justify-content: center;
+    list-style-type:none;
+    font-size: 1.5rem; 
+    color: var(--SHADOW-COLOR);
+    padding-top:1rem ;
+    object-fit: fill;
+}
+.offcanvas-body .ol li:focus,
+.offcanvas-body .ol li:hover{
+    background-color: var(--WHITE-COLORr);
 }
 @media screen and (max-width: 768px) {
    .first{
