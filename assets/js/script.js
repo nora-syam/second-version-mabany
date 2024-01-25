@@ -37,3 +37,4 @@ let count2 = setInterval(() => {
   }
 }, 2000 / goal2);
 }
+

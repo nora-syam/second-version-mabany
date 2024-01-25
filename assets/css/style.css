@@ -137,20 +137,27 @@ footer .btn{
     background-position:bottom;
     height: 86vh;    
 }
-
-.offcanvas-body .ol li{
-    display: flex;
-    justify-content: center;
+/*--menu--*/
+.offcanvas{
+    background-color: rgba(255, 255, 255,.5) ;  
+}
+.offcanvas-body  li{
     list-style-type:none;
+} 
+  .offcanvas-body a{
     font-size: 1.5rem; 
-    color: var(--SHADOW-COLOR);
-    padding-top:1rem ;
-    object-fit: fill;
-}
-.offcanvas-body .ol li:focus,
-.offcanvas-body .ol li:hover{
-    background-color: var(--WHITE-COLORr);
-}
+    padding-top:1rem ; 
+    padding-bottom:1rem ; 
+    display: block;
+    color: var(--DARKCOLOR);
+} 
+.offcanvas-body   a:hover,
+.offcanvas-body  a:focus{
+    color:var(--WHITE-COLORr) ;
+    background-color: var(--LIGHRCOLOR);
+    text-decoration: none;
+} 
+/*--menu--*/
 @media screen and (max-width: 768px) {
    .first{
     display: none;
