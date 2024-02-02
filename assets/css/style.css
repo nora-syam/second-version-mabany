@@ -161,6 +161,11 @@ footer .btn{
 th {
     font-weight:normal;
 }
+.events:hover {
+  transform: translateY(-30px);
+  transition: 0.4s ease-out;
+}
+
 @media screen and (max-width: 768px) {
    .first{
     display: none;

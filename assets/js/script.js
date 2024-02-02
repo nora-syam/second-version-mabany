@@ -38,3 +38,7 @@ let count2 = setInterval(() => {
 }, 2000 / goal2);
 }
 
+$('input').on('change', function() {
+	$('body').toggleClass('blue');
+  });
+  
