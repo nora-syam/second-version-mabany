@@ -5,18 +5,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
         <link href='https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css' rel='stylesheet'>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        
         <link href="assets/css/style.css" rel="stylesheet">      
         <title>Home</title>
     </head>
     <body>
         <!--navbar-->
-<nav class="border-bottom bg-white" >
-    <div class="container py-2">
+<nav class="border-bottom bg-white sticky-top" >
+    <div class="container py-3">
     <ol class="d-flex justify-content-between p-0 m-0">
-        <li class="first"><a href="#">EN | <img src="assets/images/Frame8.png"></a></li>
+        <li class="first"><a href="#">AR | <img src="assets/images/Frame8.png"></a></li>
         <li><a href="index.html"><img src="assets/images/Asset1@51.png" height="47" width="150"></a></li>
         <li><button class="border-0 bg-white"
                     data-bs-toggle="offcanvas" 
@@ -58,7 +60,7 @@
     <div class="col-md-3  bg-light work-together">
         <h4 class="pt-3 ps-3">Let's Work</h4>
         <h4 class="ps-3">Together <img src="assets/images/Line2.png"></h4>
-       <a href="#"><h6 class="py-2 ps-3 m-0">contact us</h6></a> 
+       <a href="contact.html"><h6 class="py-2 ps-3 m-0">contact us</h6></a> 
     </div>
 </section>
 <!--columns section-->
@@ -170,9 +172,72 @@
   <div class="container"> 
     <h5>our project <img src="assets/images/Line2.png"></h5>  
     <div class="col-md-7"><h1>We always strive to innovate in our projects and in our different business management methods.</h1></div>
-    <label><a href="#">View all projects</a></label>
-    <main>
+    <label class="py-3"><a href="#">View all projects</a></label>
+    <main class="py-3">
+      <swiper-container navigation="true" pagination="true" > 
+      <!-- <swiper-slide >
+          <figure style="background-image: url('assets/images/Rectangle5.png'); height: 80vh; background-repeat: no-repeat;" >          
+              <div class="view-project ">
+              <i class="material-icons">add</i>
+            </div>
+            <figcaption class="text-black-50 pt-1 ">
+              Commercial
+              <h5 class="text-dark pt-2"><a href="#">Central Avenue</a></h5>
+          </figcaption> 
+        </figure>              
+      </swiper-slide> -->
+        <swiper-slide>
+          <figure class="rounded">
+        
+              <img class="img-fluid rounded" src="assets/images/Rectangle4.png">
+         
+            
+            <figcaption class="text-black-50 pt-1 ">
+              Commercial
+              <h5 class="text-dark pt-2"><a href="#">Central Avenue</a></h5>
+          </figcaption>
+        </figure>
+        </swiper-slide>
+        <swiper-slide>
+          <figure class="rounded">
+    
+              <img class="img-fluid rounded" src="assets/images/Rectangle5.png">
       
+            
+            <figcaption class="text-black-50 pt-1 ">
+              Commercial
+              <h5 class="text-dark pt-2"><a href="#">Central Avenue</a></h5>
+          </figcaption>
+        </figure>
+        </swiper-slide>
+        <swiper-slide>
+          <figure class="rounded">
+            <img class="img-fluid rounded" src="assets/images/Rectangle3.png">
+            <figcaption class="text-black-50 pt-1 ">
+              Commercial
+              <h5 class="text-dark pt-2"><a href="#">Central Avenue</a></h5>
+          </figcaption>
+        </figure>
+</swiper-slide>
+        <swiper-slide>
+          <figure class="rounded">
+            <img class="img-fluid rounded" src="assets/images/Rectangle4.png">
+            <figcaption class="text-black-50 pt-1 ">
+              Commercial
+              <h5 class="text-dark pt-2"><a href="#">Central Avenue</a></h5>
+          </figcaption>
+        </figure>
+        </swiper-slide>
+        <!--<swiper-slide>
+          <figure class="rounded">
+            <img class="img-fluid rounded" src="assets/images/Rectangle5.png">
+            <figcaption class="text-black-50 pt-1 ">
+              Commercial
+              <h5 class="text-dark pt-2"><a href="#">Central Avenue</a></h5>
+          </figcaption>
+        </figure>
+        </swiper-slide> -->
+      </swiper-container>
     </main>
   </div>
 </section>
@@ -209,8 +274,6 @@
     </div>
    </div>
 </section>
-<!--projects section-->
-
 <!--footer section-->
 <section class="bg-light fotter py-5">
   <footer class="container  py-5">     
@@ -230,9 +293,12 @@
   </footer>   
 </section>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" 
-integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
-integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-<script src="assets/js/script.js"></script>
+          integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" 
+        crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" 
+          integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" 
+          crossorigin="anonymous"></script>
+          <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
     </body>
 </html>

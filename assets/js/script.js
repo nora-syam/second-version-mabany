@@ -1,5 +1,6 @@
 
-const parentContainer =  document.querySelector('.read-more-container');
+// //read more
+const parentContainer = document.querySelector('.read-more-container');
 parentContainer.addEventListener('click', event=>{
     const current = event.target;
 
@@ -15,7 +16,7 @@ parentContainer.addEventListener('click', event=>{
 
 })
 
-
+// //counter
 let nums2 = document.querySelectorAll(".nums2 .num2");
 let Section = document.querySelector(".one");
 let start = false; // Function Started ? No
@@ -38,7 +39,35 @@ let count2 = setInterval(() => {
 }, 2000 / goal2);
 }
 
-$('input').on('change', function() {
-	$('body').toggleClass('blue');
-  });
+
+// $('input').on('change', function() {
+// 	$('body').toggleClass('blue');
+// });
   
+  // swiper
+ // swiper element
+ const swiperEl = document.querySelector('swiper-container');
+
+ // swiper parameters
+ const swiperParams = {
+   slidesPerView: 1,
+   breakpoints: {
+     640: {
+       slidesPerView: 2,
+     },
+     1024: {
+       slidesPerView: 3,
+     },
+   },
+   on: {
+     init() {
+       // ...
+     },
+   },
+ };
+
+ // now we need to assign all parameters to Swiper element
+ Object.assign(swiperEl, swiperParams);
+
+ // and now initialize it
+ swiperEl.initialize();
